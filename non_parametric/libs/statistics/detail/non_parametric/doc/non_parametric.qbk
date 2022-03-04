@@ -1,0 +1,40 @@
+
+[/  Images   ]
+
+[def _note_                  [$images/note.png]]
+[def _alert_                 [$images/caution.png]]
+[def _detail_                [$images/note.png]]
+[def _tip_                   [$images/tip.png]]
+
+[/  Links   ]
+
+[def _sample_type_           '''<replaceable>sample-type</replaceable>''']
+[def _weight_type_           '''<replaceable>weight-type</replaceable>''']
+[def _variate_type_          '''<replaceable>variate-type</replaceable>''']
+[def _variate_tag_           '''<replaceable>variate-tag</replaceable>''']
+[def _left_or_right_         '''<replaceable>left-or-right</replaceable>''']
+[def _implementation_defined_ '''<replaceable>implementation-defined</replaceable>''']
+[def _boost_                 [@http://www.boost.org Boost]]
+[def _mpl_                   [@../../libs/mpl/index.html MPL]]
+[def _mpl_lambda_expression_ [@../../libs/mpl/doc/refmanual/lambda-expression.html MPL Lambda Expression]]
+[def _parameter_             [@../../libs/parameter/index.html Boost.Parameter]]
+[def _accumulator_set_       [classref boost::accumulators::accumulator_set `accumulator_set<>`]]
+[def _accumulator_base_      [classref boost::accumulators::accumulator_base `accumulator_base`]]
+[def _depends_on_            [classref boost::accumulators::depends_on `depends_on<>`]]
+[def _feature_of_            [classref boost::accumulators::feature_of `feature_of<>`]]
+[def _as_feature_            [classref boost::accumulators::as_feature `as_feature<>`]]
+[def _features_              [classref boost::accumulators::features `features<>`]]
+[def _external_              [classref boost::accumulators::external `external<>`]]
+[def _droppable_             [classref boost::accumulators::droppable `droppable<>`]]
+[def _droppable_accumulator_ [classref boost::accumulators::droppable_accumulator `droppable_accumulator<>`]]
+[def _extractor_             [classref boost::accumulators::tag::extractor `extractor<>`]]
+[def _tail_                  [classref boost::accumulators::tag::tail `tail`]]
+[def _tail_variate_          [classref boost::accumulators::tag::tail_variate `tail_variate<>`]]
+[def _extract_result_        [funcref boost::accumulators::extract_result `extract_result()`]]
+[def _ZKB_                   [@http://www.zkb.com Z'''&uuml;'''rcher Kantonalbank]]
+
+
+[section:ct_Contingency_Table Contingency Table]
+
+
+[endsect]

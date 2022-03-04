@@ -1,0 +1,18 @@
+rule non_parametric-test ( name )
+{
+    return [
+        run $(name).cpp /boost/test//boost_unit_test_framework/<link>static : --log_level=test_suite ] 
+            
+        ;
+}
+
+test-suite non_parametric :
+    [ non_parametric-test empirical_distribution ]
+    [ non_parametric-test contingency_table ]
+    ;
+
+
+
+
+
+

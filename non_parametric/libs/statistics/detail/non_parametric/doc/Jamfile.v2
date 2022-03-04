@@ -1,0 +1,14 @@
+
+using quickbook ;
+
+xml non_parametric : non_parametric.qbk ;
+boostbook standalone 
+	: 
+	non_parametric
+	:
+        <xsl:param>boost.max.id.length=1024
+        <xsl:param>toc.max.depth=4
+        <xsl:param>toc.section.depth=4
+        <xsl:param>chunk.section.depth=2
+
+	;
